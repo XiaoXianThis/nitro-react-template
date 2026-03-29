@@ -6,4 +6,12 @@ dist
 .output
 .env
 .env.local
+
+# IDE
 .idea
+.vscode
+.kiro
+
+# Misc
+.DS_Store
+*.log
