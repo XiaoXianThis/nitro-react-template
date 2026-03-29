@@ -14,12 +14,23 @@
 
 ## 快速开始
 
+### 使用 degit 创建项目
+
+```bash
+npx degit XiaoXianThis/nitro-react-template 项目名称
+cd 项目名称
+bun install
+bun run dev
+```
+
+### 手动克隆
+
 ```bash
 # 安装依赖
-npm install
+bun install
 
 # 启动开发服务器
-npm run dev
+bun run dev
 ```
 
 开发服务器默认运行在 `http://localhost:3000`
@@ -107,10 +118,10 @@ export default defineHandler((event) => {
 
 ```bash
 # 生产构建
-npm run build
+bun run build
 
 # 本地预览生产构建
-npm run preview
+bun run preview
 ```
 
 构建产物位于 `.output/` 目录。
