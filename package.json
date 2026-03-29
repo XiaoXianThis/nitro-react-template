@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite dev",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.2",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.2",
+    "jiti": "^2.6.1",
+    "nitro": "latest",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^5.9.3",
+    "vite": "latest",
+    "vite-plugin-pages": "^0.33.3"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.13.2"
+  }
+}
