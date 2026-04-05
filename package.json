@@ -2,8 +2,8 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
-    "dev": "vite dev --port 5000",
-    "preview": "vite preview --port 5000"
+    "dev": "vite dev",
+    "preview": "vite preview"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.2.2",
