@@ -33,7 +33,7 @@ bun install
 bun run dev
 ```
 
-开发服务器默认运行在 `http://localhost:3000`
+开发服务器默认运行在 `http://localhost:5000`
 
 ## 项目结构
 
